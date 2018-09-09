@@ -52,6 +52,13 @@ from corella import Corella
 C = Corella()
 C.draw(pandas_df)
 ```
+## Sample datasets
+Two datasets are provided within `./datasets/`
+1. The Iris dataset
+2. [FIFA World Cup 2018 Match Stats](https://www.kaggle.com/mathan/fifa-2018-match-statistics) from Kaggle.
+
+Try `corella --input datasets/iris.csv  --pos-color light_magenta --neg-color blue --padding 30`
+
 ## License
 MIT
 
