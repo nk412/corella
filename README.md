@@ -25,7 +25,7 @@ The dataset parsing and correlation calculation is all done via `pandas`.
 ##### `--pos-color`
 Set the color to use for positive correlation. Defaults to `light_red` <br>
 Supported colors include `black, red, green, yellow, blue, magenta, cyan, white` and `light_gray, dark_gray, light_red, light_green, light_yellow, light_blue, light_magenta, light_cyan`. <br>
-Full list of all 256 supported colors can be found at the [colorama project page](https://pypi.org/project/colored/).
+Full list of all 256 supported colors can be found at the [colored project page](https://pypi.org/project/colored/).
 
 ##### `--neg-color`
 Set the color to use for negative correlation. Defaults to `light_blue` <br>
@@ -63,4 +63,4 @@ Try `corella --input datasets/iris.csv  --pos-color light_magenta --neg-color bl
 MIT
 
 ## Thanks
-[colorama](https://github.com/tartley/colorama)
+[colored](https://pypi.org/project/colored/)
