@@ -7,7 +7,7 @@ Correlation plots on the terminal, for quick and simple insights. Powered by `pa
 _Dataset source: [FIFA World Cup 2018 Match Stats](https://www.kaggle.com/mathan/fifa-2018-match-statistics)_
 
 ## Quickstart
-Requires Python3. Currently, only CSV files are supported. <br>
+Requires Python3. Currently, only CSV files are supported.<br>
 The dataset parsing and correlation calculation is all done via `pandas`.
 
 `pip install corella`
